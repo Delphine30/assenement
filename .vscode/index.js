@@ -1,49 +1,51 @@
-//function injavascript
-//function myFunction(){
- //block of code
- //return a + b;
-//}
-//console.log(myFunction(2,4));
-//var x = 10;
+// function injavascript()
+// function myFunction()
+// // block of code{
+//  return a + b;
 
-//if(x = 12){
-   // console.log("good moring")
-//}
-//else{
-   // console.log("good evening")
-//}
-//var student ="female";
-//var skills ="basics";
-//var test =80;
-//if(student=="female" && skills=="none"){
-    //console.log("shecancode beginner")
-//}
- //else if(student=="female" && skills=="basics"){
-   //console.log("shecancode advanced")
- //}
- //else{
-   // console.log("teck-code")
-  //}
-  //const numOne=5;
-  //const numTwo=6;
-  //return numOne + 1;
-  //if(numOne +1 == numTwo){
-   //console.log("True")
-//}
-//else{
-   //console.log("False")
- //}
-//const numOne=5;
-//let numTwo=numOne;
-   //console.log(numTwo);
-   //const num;
-  // Num=5;
-  // console.log(num)
-  //(function() {
-  // const button=document.getElementById('button').innerHTML;
-  // button.addEventListener('click',function(){
-      //alert('download')
-  // })
+// console.log(myFunction(2,4));
+// var x = 10;
+
+// if(x = 12){
+//    console.log("good moring")
+// }
+// else{
+//    console.log("good evening")
+// }
+// var student ="female";
+// var skills ="basics";
+// var test =80;
+// if(student=="female" && skills=="none"){
+//     console.log("shecancode beginner")
+// }
+//  else if(student=="female" && skills=="basics"){
+//    console.log("shecancode advanced")
+//  }
+//  else{
+//    console.log("teck-code")
+//   }
+//   const numOne=5;
+//   const numTwo=6;
+//   return numOne + 1;
+//   if(numOne +1 == numTwo){
+//    console.log("True")
+// }
+// else{
+//    console.log("False")
+//  }
+// const numOne=5;
+// let numTwo=numOne;
+//    console.log(numTwo);
+//    const num;
+//   Num=5;
+//   console.log(num)
+//   (function() {
+//   const button=document.getElementById('button').innerHTML;
+//   button.addEventListener('click',function(){
+//       alert('download')
+// m1=7;
+//   //let num2=7;
+  //function //   })
  //})();
  //local variable function
 //function func(){
@@ -53,20 +55,18 @@
  //console.log(func());
  //global variable
   //function expression
-  //let num1=7;
-  //let num2=7;
-  //function func(){
-    //return num1*num2;
-  //}
-  //console.log(func())
-   //anolymous functions
-    //let anfunc=function(){
-       //console.log("hello world")
-    //};
-    //anfunc();
-     //arrow functions
-      //let greeting = () => console.log("good afternoon");
-      //greeting();
+  //let nufunc(){
+//     //return num1*num2;
+//   //}
+//   //console.log(func())
+//    //anolymous functions
+//     //let anfunc=function(){
+//        //console.log("hello world")
+//     //};
+//     //anfunc();
+//      //arrow functions
+//       //let greeting = () => console.log("good afternoon");
+//       //greeting();
 
       //let sum =(x,y) =>{
        //let sum = x+y;
@@ -158,14 +158,18 @@
    // by example:let heading=getElementByTagName("")
    // *heading(0).Innerhtml="firstheading"
    // p.Innerhtml="text"
-   // heading(2).style.color="red"
- var container=document.querySelector("item-container");
- container.style.backgroundcolor = "gray";
- var li = document.querySelector("ul:lastchild");
- list.style.backgroundcolor="red";
- document.querySelector(".list-item").style.backgroundcolor="#000";
- document.querySelector(".list-item").style.backgroundcolor="#000";
-var list = document.querySelector(".list-item");
-for(var i=0;i<list.clientHeight;i++){
-   list[]
-}
+//    // heading(2).style.color="red"
+//  var container=document.querySelector("item-container");
+//  container.style.backgroundcolor = "gray";
+//  var li = document.querySelector("ul:lastchild");
+//  list.style.backgroundcolor="red";
+//  document.querySelector(".list-item").style.backgroundcolor="#000";
+//  document.querySelector(".list-item").style.backgroundcolor="#000";
+// var list = document.querySelector(".list-item");
+// for(var i=0;i<list.clientHeight;i++){
+//    list[]
+// 
+var addelement=document.createElement("h1");
+var text =document.createTextNode("item nlist");
+addelement.appendChild(text);
+addelelement.insertbefore("ul");
